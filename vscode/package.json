@@ -1,0 +1,25 @@
+{
+  "name": "fauxbespin",
+  "displayName": "Fauxbespin",
+  "description": "A Bespin inspired theme using a vibrant earth tone palette.",
+  "version": "0.1.0",
+  "publisher": "HauteMic",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HauteMic/fauxbespin-theme-syntax"
+  },
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Fauxbespin",
+        "uiTheme": "vs-dark",
+        "path": "./themes/fauxbespin-color-theme.json"
+      }
+    ]
+  }
+}
