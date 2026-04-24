@@ -1,6 +1,6 @@
 # Fauxbespin
 
-A medium-dark theme using a vibrant earth tone palette. Inspired Mozilla Bespin, the cloud editor that started it all. Available for Zed and VS Code.
+A medium-dark theme using a vibrant earth tone palette. Inspired by Mozilla Bespin, the cloud editor that started it all. Available for Zed and VS Code.
 
 ---
 
@@ -31,6 +31,8 @@ A medium-dark theme using a vibrant earth tone palette. Inspired Mozilla Bespin,
 4. Open the Command Palette again and run **`theme selector: toggle`**
 5. Choose **Fauxbespin**
 
+> **If you rename or move the project folder**, the dev extension will break with a "path not found" error. Fix it by deleting the stale symlink at `%LOCALAPPDATA%\Zed\extensions\installed\fauxbespin` and running `zed: install dev extension` again.
+
 ---
 
 ## VS Code
@@ -51,4 +53,20 @@ npm install -g @vscode/vsce
 cd vscode/
 vsce package
 code --install-extension fauxbespin-0.1.0.vsix
+```
+
+---
+
+## Windows Terminal
+
+1. Open Windows Terminal **Settings** (`Ctrl+,`)
+2. Click **Open JSON file** (bottom-left)
+3. In the `"schemes"` array, paste the contents of `windows-terminal/fauxbespin.json`
+4. In your profile's settings, set `"colorScheme": "Fauxbespin"`
+
+Note: If using WSL it is recommended to override the default display of directories/folders with these commands:
+
+```
+echo 'export LS_COLORS="${LS_COLORS}:ow=01;34"' >> ~/.bashrc
+source ~/.bashrc
 ```

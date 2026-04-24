@@ -1,0 +1,23 @@
+{
+  "name": "Fauxbespin",
+  "background": "#28211C",
+  "foreground": "#B2A69A",
+  "cursorColor": "#FFFFFF",
+  "selectionBackground": "#3E4046",
+  "black": "#1D1F21",
+  "brightBlack": "#373B41",
+  "red": "#CC6666",
+  "brightRed": "#DA5538",
+  "green": "#10D00D",
+  "brightGreen": "#1AE817",
+  "yellow": "#DA5538",
+  "brightYellow": "#E0694F",
+  "blue": "#00AAFF",
+  "brightBlue": "#33BBFF",
+  "purple": "#B294BB",
+  "brightPurple": "#C9A8D4",
+  "cyan": "#8ABEB7",
+  "brightCyan": "#9FCEC8",
+  "white": "#B2A69A",
+  "brightWhite": "#C5C8C6"
+}
