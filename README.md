@@ -25,6 +25,8 @@ A medium-dark theme using a vibrant earth tone palette. Inspired by Mozilla Besp
 
 ## Obsidian
 
+![Fauxbespin in Obsidian](screenshots/fauxbespin-obsidian.png)
+
 Install via **Settings → Appearance → Themes → Manage** — search for **Fauxbespin**.
 
 To install manually, copy `manifest.json` and `theme.css` into a `Fauxbespin/` folder inside your vault's `.obsidian/themes/` directory, then select it under **Settings → Appearance → Themes**.
@@ -32,6 +34,8 @@ To install manually, copy `manifest.json` and `theme.css` into a `Fauxbespin/` f
 ---
 
 ## Zed
+
+![Fauxbespin in Zed](screenshots/fauxbespin-zed.png)
 
 1. Open the Command Palette (`Cmd/Ctrl+Shift+P`)
 2. Run **`zed: install dev extension`**
@@ -44,6 +48,8 @@ To install manually, copy `manifest.json` and `theme.css` into a `Fauxbespin/` f
 ---
 
 ## VS Code
+
+![Fauxbespin in VS Code](screenshots/fauxbespin-vscode.png)
 
 ### Option A — Install from folder (no packaging required)
 
@@ -67,11 +73,15 @@ code --install-extension fauxbespin-0.1.0.vsix
 
 ## Firefox
 
+![Fauxbespin in Firefox](screenshots/fauxbespin-firefox.png)
+
 Install from the [Firefox Add-ons page](https://addons.mozilla.org/en-US/firefox/addon/fauxbespin/).
 
 ---
 
 ## Windows Terminal
+
+![Fauxbespin in Windows Terminal](screenshots/fauxbespin-windows-term.png)
 
 1. Open Windows Terminal **Settings** (`Ctrl+,`)
 2. Click **Open JSON file** (bottom-left)
