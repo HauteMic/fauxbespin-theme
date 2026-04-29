@@ -1,0 +1,119 @@
+.theme-dark {
+
+  /* ── Base color scale ───────────────────────────────────────────── */
+  --color-base-00:  #1A1410;
+  --color-base-05:  #1E1712;
+  --color-base-10:  #221A16;
+  --color-base-20:  #28211C;
+  --color-base-25:  #2E2520;
+  --color-base-30:  #3B3020;
+  --color-base-35:  #453828;
+  --color-base-40:  #5A4A40;
+  --color-base-50:  #6E6E6E;
+  --color-base-60:  #969896;
+  --color-base-70:  #B2A69A;
+  --color-base-100: #C5C8C6;
+
+  /* ── Accent (keyword blue) ──────────────────────────────────────── */
+  --accent-h: 204;
+  --accent-s: 100%;
+  --accent-l: 50%;
+
+  /* ── Extended palette ───────────────────────────────────────────── */
+  --color-red:        #CC6666;
+  --color-red-rgb:    204, 102, 102;
+  --color-orange:     #DA5538;
+  --color-orange-rgb: 218, 85, 56;
+  --color-yellow:     #B5BD68;
+  --color-yellow-rgb: 181, 189, 104;
+  --color-green:      #10D00D;
+  --color-green-rgb:  16, 208, 13;
+  --color-cyan:       #8ABEB7;
+  --color-cyan-rgb:   138, 190, 183;
+  --color-blue:       #00AAFF;
+  --color-blue-rgb:   0, 170, 255;
+  --color-purple:     #B294BB;
+  --color-purple-rgb: 178, 148, 187;
+  --color-pink:       #E0694F;
+  --color-pink-rgb:   224, 105, 79;
+
+  /* ── Surface backgrounds ────────────────────────────────────────── */
+  --background-primary:               #28211C;
+  --background-primary-alt:           #2E2520;
+  --background-secondary:             #221A16;
+  --background-secondary-alt:         #1E1712;
+  --background-modifier-hover:        rgba(59, 48, 32, 0.25);
+  --background-modifier-active-hover: rgba(59, 48, 32, 0.45);
+  --background-modifier-border:       #3B3B3B;
+  --background-modifier-border-hover: #5A5A5A;
+  --background-modifier-border-focus: #00AAFF;
+  --background-modifier-error-rgb:    204, 102, 102;
+  --background-modifier-error:        rgba(204, 102, 102, 0.15);
+  --background-modifier-error-hover:  rgba(204, 102, 102, 0.25);
+  --background-modifier-success-rgb:  16, 208, 13;
+  --background-modifier-success:      rgba(16, 208, 13, 0.15);
+  --background-modifier-form-field:   #221A16;
+
+  /* ── Interactive ────────────────────────────────────────────────── */
+  --interactive-normal:       #302820;
+  --interactive-hover:        #3B3020;
+  --interactive-accent:       #00AAFF;
+  --interactive-accent-hsl:   204, 100%, 50%;
+  --interactive-accent-hover: #33BBFF;
+
+  /* ── Text ───────────────────────────────────────────────────────── */
+  --text-normal:             #B2A69A;
+  --text-muted:              #969896;
+  --text-faint:              #6E6E6E;
+  --text-on-accent:          #1D1F21;
+  --text-on-accent-inverted: #1D1F21;
+  --text-success:            #10D00D;
+  --text-warning:            #DA5538;
+  --text-error:              #CC6666;
+  --text-accent:             #00AAFF;
+  --text-accent-hover:       #33BBFF;
+  --text-selection:          rgba(62, 64, 70, 0.4);
+  --text-highlight-bg:       rgba(218, 85, 56, 0.25);
+  --caret-color:             #FFFFFF;
+
+  /* ── Headings ───────────────────────────────────────────────────── */
+  --heading-formatting: #6E6E6E;
+  --h1-color: #FFFFFF;
+  --h2-color: #00AAFF;
+  --h3-color: #E0694F;
+  --h4-color: #B5BD68;
+  --h5-color: #8ABEB7;
+  --h6-color: #B294BB;
+
+  /* ── Links ──────────────────────────────────────────────────────── */
+  --link-color:                       #00AAFF;
+  --link-color-hover:                 #33BBFF;
+  --link-decoration:                  none;
+  --link-decoration-hover:            underline;
+  --link-unresolved-color:            #B294BB;
+  --link-unresolved-opacity:          0.7;
+  --link-unresolved-decoration-style: dashed;
+  --link-unresolved-decoration-color: #B294BB;
+  --link-external-color:              #8ABEB7;
+  --link-external-color-hover:        #9FCEC8;
+  --link-external-decoration:         none;
+  --link-external-decoration-hover:   underline;
+
+  /* ── Code & syntax highlighting ─────────────────────────────────── */
+  --code-background:  #221A16;
+  --code-normal:      #B2A69A;
+  --code-comment:     #6E6E6E;
+  --code-function:    #FFFFFF;
+  --code-important:   #DA5538;
+  --code-keyword:     #00AAFF;
+  --code-operator:    #B2A69A;
+  --code-property:    #DA5538;
+  --code-punctuation: #B2A69A;
+  --code-string:      #10D00D;
+  --code-tag:         #CC6666;
+  --code-value:       #DA5538;
+
+  /* ── Bold & italic ──────────────────────────────────────────────── */
+  --bold-color:   #E0694F;
+  --italic-color: #B294BB;
+}
