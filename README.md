@@ -1,6 +1,6 @@
 # Fauxbespin
 
-A medium-dark theme using a vibrant earth tone palette. Inspired by Mozilla Bespin, the cloud editor that started it all. Available for Firefox, Zed, VS Code, and Windows Terminal.
+A medium-dark theme using a vibrant earth tone palette. Inspired by Mozilla Bespin, the cloud editor that started it all. Available for Firefox, Obsidian, Zed, VS Code, and Windows Terminal.
 
 ---
 
@@ -20,6 +20,14 @@ A medium-dark theme using a vibrant earth tone palette. Inspired by Mozilla Besp
 | ![#b294bb](https://placehold.co/16x16/b294bb/b294bb.png) | `#B294BB` | Emphasis / selectors |
 | ![#8abeb7](https://placehold.co/16x16/8abeb7/8abeb7.png) | `#8ABEB7` | Cyan (terminal) |
 | ![#6E6E6E](https://placehold.co/16x16/6E6E6E/6E6E6E.png) | `#6E6E6E` | Comments |
+
+---
+
+## Obsidian
+
+Install via **Settings → Appearance → Themes → Manage** — search for **Fauxbespin**.
+
+To install manually, copy `manifest.json` and `theme.css` into a `Fauxbespin/` folder inside your vault's `.obsidian/themes/` directory, then select it under **Settings → Appearance → Themes**.
 
 ---
 
@@ -59,7 +67,7 @@ code --install-extension fauxbespin-0.1.0.vsix
 
 ## Firefox
 
-Install from the [Firefox Add-ons page](https://addons.mozilla.org/en-US/developers/addon/fauxbespin/).
+Install from the [Firefox Add-ons page](https://addons.mozilla.org/en-US/firefox/addon/fauxbespin/).
 
 ---
 
