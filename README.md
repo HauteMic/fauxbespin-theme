@@ -1,6 +1,6 @@
 # Fauxbespin
 
-A medium-dark theme using a vibrant earth tone palette. Inspired by Mozilla Bespin, the cloud editor that started it all. Available for Zed and VS Code.
+A medium-dark theme using a vibrant earth tone palette. Inspired by Mozilla Bespin, the cloud editor that started it all. Available for Firefox, Zed, VS Code, and Windows Terminal.
 
 ---
 
@@ -54,6 +54,32 @@ cd vscode/
 vsce package
 code --install-extension fauxbespin-0.1.0.vsix
 ```
+
+---
+
+## Firefox
+
+### Test locally
+
+1. Open Firefox and go to `about:debugging`
+2. Click **This Firefox → Load Temporary Add-on**
+3. Navigate to the `firefox/` folder and select `manifest.json`
+4. The theme is applied immediately (lasts until Firefox restarts)
+
+### Package
+
+```sh
+cd firefox/
+python3 -c "import zipfile; z = zipfile.ZipFile('fauxbespin-theme-0.1.0.zip', 'w', zipfile.ZIP_DEFLATED); z.write('manifest.json'); z.close()"
+```
+
+### Submit to Mozilla
+
+1. Create a [Mozilla account](https://addons.mozilla.org) if you don't have one
+2. Go to [addons.mozilla.org/developers](https://addons.mozilla.org/developers/) and click **Submit a New Add-on**
+3. Choose **On this site** (listed on AMO) and upload the `.zip`
+4. Fill in the listing details (name, description, category: **Appearance**)
+5. Submit — themes are auto-reviewed and typically approved within minutes
 
 ---
 

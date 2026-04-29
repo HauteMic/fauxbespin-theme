@@ -1,0 +1,63 @@
+{
+  "manifest_version": 2,
+  "name": "Fauxbespin",
+  "version": "0.1.0",
+  "description": "A Bespin inspired theme using a vibrant earth tone palette.",
+  "homepage_url": "https://github.com/HauteMic/fauxbespin-theme",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "fauxbespin-theme@HauteMic"
+    }
+  },
+  "theme": {
+    "colors": {
+      "frame":                          "#1E1712",
+      "frame_inactive":                 "#221A16",
+
+      "tab_background_text":            "#969896",
+      "tab_text":                       "#B2A69A",
+      "tab_selected":                   "#28211C",
+      "tab_line":                       "#00AAFF",
+      "tab_loading":                    "#00AAFF",
+
+      "toolbar":                        "#28211C",
+      "toolbar_text":                   "#B2A69A",
+      "toolbar_top_separator":          "#3B3B3B",
+      "toolbar_bottom_separator":       "#3B3B3B",
+      "toolbar_vertical_separator":     "#3B3B3B",
+
+      "toolbar_field":                  "#221A16",
+      "toolbar_field_text":             "#B2A69A",
+      "toolbar_field_border":           "#3B3B3B",
+      "toolbar_field_focus":            "#2E2520",
+      "toolbar_field_text_focus":       "#B2A69A",
+      "toolbar_field_border_focus":     "#00AAFF",
+      "toolbar_field_highlight":        "#1E4A6E",
+      "toolbar_field_highlight_text":   "#FFFFFF",
+
+      "icons":                          "#B2A69A",
+      "icons_attention":                "#00AAFF",
+      "button_background_hover":        "#3B3020",
+      "button_background_active":       "#453828",
+
+      "popup":                          "#221A16",
+      "popup_text":                     "#B2A69A",
+      "popup_border":                   "#3B3B3B",
+      "popup_highlight":                "#3B3020",
+      "popup_highlight_text":           "#B2A69A",
+
+      "sidebar":                        "#221A16",
+      "sidebar_text":                   "#B2A69A",
+      "sidebar_border":                 "#3B3B3B",
+      "sidebar_highlight":              "#3B3020",
+      "sidebar_highlight_text":         "#B2A69A",
+
+      "ntp_background":                 "#28211C",
+      "ntp_card_background":            "#221A16",
+      "ntp_text":                       "#B2A69A"
+    },
+    "properties": {
+      "color_scheme": "dark"
+    }
+  }
+}
